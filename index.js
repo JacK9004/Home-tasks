@@ -16,20 +16,21 @@
 // console.log("Natija", natija3);
 // console.log("****************");
 
-//account example
-const Account = require("./account");
-Account.tellMeAboutClass();
-Account.tellMeTime();
+// account example
+// const Account = require("./account");
+// Account.tellMeAboutClass();
+// Account.tellMeTime();
 
-console.log("**********************");
+// console.log("**********************");
 
-const myAccount = new Account("Jack", 200000, 9384784743223);
-myAccount.giveMeDetails();
+// const myAccount = new Account("Jack", 200000, 9384784743223);
+// myAccount.giveMeDetails();
 
-myAccount.makeDeposit(1000000);
+// myAccount.makeDeposit(1000000);
 
-//Bugatti 2,5 mln usd
-myAccount.withdrawMoney(25000000);
+// //Bugatti 2,5 mln usd
+// myAccount.withdrawMoney(25000000);
+
 
 
 
